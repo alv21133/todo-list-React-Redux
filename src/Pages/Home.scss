@@ -1,0 +1,24 @@
+.home {
+  width: 100%;
+  display: inline-block;
+
+  .home-content {
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: minmax(150px, 18%) auto;
+
+    .home-sidebar-left {
+      min-height: 5000px;
+      overflow: hidden;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      border-top-right-radius: 25px;
+      margin-top: 10px;
+    }
+
+    .home-sidebar-right {
+      padding: 0 24px;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.todo-card {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: 40px auto 0;
+
+  &__line {
+    margin-top: 90px;
+    background-color: gray;
+    height: 3px;
+    border-radius: 5%;
+  }
+}
